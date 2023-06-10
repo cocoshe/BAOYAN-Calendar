@@ -1,5 +1,5 @@
-# 上次更新时间：2023-06-11 04:29:22
-[![🕊下次一定](img.png "这是一只鸽子")](https://open-web-calendar.hosted.quelltext.eu/calendar.html?url=https%3A%2F%2Fraw.githubusercontent.com%2Fasimple1%2FBAOYAN-Calendar%2Fmain%2Fcalendar20230610202922.ics)
+# 上次更新时间：2023-06-11 04:42:45
+[![🕊下次一定](img.png "这是一只鸽子")](https://open-web-calendar.hosted.quelltext.eu/calendar.html?url=https%3A%2F%2Fraw.githubusercontent.com%2Fasimple1%2FBAOYAN-Calendar%2Fmain%2Fcalendar20230610204245.ics)
     
 # 狠狠点击👆
     
@@ -7,7 +7,7 @@
     
  1. fork本仓库
     
- 2. 在`all_info`文件夹下创建学校文件夹,并在其中创建学院yaml文件,格式如下:
+ 2. clone到本地,在`all_info`文件夹下创建学校文件夹,并在其中创建学院yaml文件,格式如下:
     
  ```yaml
 events:
@@ -16,11 +16,11 @@ events:
     begin: "2023-01-01"
     end: "2023-01-02"
     description: "鼠鼠学院"
-    url: "https://www.zju.edu.cn/"
+    url: "https://www.shushu.edu.cn/"
 ```
 
     
- 3. 提交pr
+ 3. push更新自己的fork,并提交pr
     
  4. 等待合并
     
