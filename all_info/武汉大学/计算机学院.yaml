@@ -1,0 +1,7 @@
+events:
+  - year: "2023"
+    school: "武汉大学"
+    begin: "2023-07-05"
+    end: "2023-07-06"
+    description: "计算机学院"
+    url: "https://cs.whu.edu.cn/info/1055/4481.htm"
