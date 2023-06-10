@@ -1,0 +1,7 @@
+events:
+  - year: "2023"
+    school: "北京大学"
+    begin: "2023-07-03"
+    end: "2023-07-05"
+    description: "电子学院"
+    url: "https://ele.pku.edu.cn/info/1232/2633.htm"

@@ -1,0 +1,38 @@
+name: Deploy
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+    - name: Merged
+      run: |
+        echo The PR was merged
+    - name: set up python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.8
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        python -m pip install -r requirements.txt
+    - name: shot
+      run: |
+        python load_calendar.py
+    - name: Config Git
+      run: |
+          git config --global user.email "2242427810@qq.com"
+          git config --global user.name "asimple1"
+          git add .
+          git commit -m "[auto update]:`TZ=':Asia/Shanghai' date +' %Y-%m-%d %H:%m:%S'`"
+    - name: Push Changes
+      uses: ad-m/github-push-action@master
+      with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: main
+          force: true
