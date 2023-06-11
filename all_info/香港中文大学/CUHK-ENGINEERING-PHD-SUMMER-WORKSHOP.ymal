@@ -1,0 +1,7 @@
+events:
+  - year: "2023"
+    school: "The Chinese University of Hong Kong"
+    begin: "2023-07-03"
+    end: "2023-07-07"
+    description: "CUHK Engineering Ph.D. Summer Workshop"
+    url: "http://hkpfs.erg.cuhk.edu.hk/"
