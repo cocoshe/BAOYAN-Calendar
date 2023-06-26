@@ -5,8 +5,6 @@ events:
     end: "2023-07-23"
     description: "工程师学院（第一期）"
     url: "https://pi.zju.edu.cn/2023/0616/c67820a2773740/page.htm"
-
-events:
   - year: "2023"
     school: "浙江大学"
     begin: "2023-07-25"
