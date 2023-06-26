@@ -60,6 +60,7 @@ last_update = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(time.time() + 8 
 with open('README.md', 'w', encoding='utf-8') as f:
     f.write(f"""# 上次更新时间：{last_update}\n[![🕊下次一定](img.png "这是一只鸽子")]({url})
     \n# 狠狠点击👆
+    \n # 免责声明：本仓库非盈利，对具体内容不承担各项责任
     \n # pr:
     \n 1. fork本仓库
     \n 2. clone到本地,在`all_info`文件夹下创建学校文件夹,并在其中创建学院yaml文件,格式如下:
